@@ -1,0 +1,11 @@
+bin/mesh
+.vs
+*.VC.db
+*.sdf
+*.ipch
+*.iobj
+*.ipdb
+*.vcxproj.user
+.obj
+*.exe
+

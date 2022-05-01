@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Shader Files">
+      <UniqueIdentifier>{f622381c-0169-4c9f-ba03-ca2c876f9248}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\vertices_binder">
+      <UniqueIdentifier>{e76f412f-8eb1-4570-9dc8-d13d2bb8d2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vertices_binder">
+      <UniqueIdentifier>{81007fe3-9ef3-4882-b1a8-42b7431587c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer">
+      <UniqueIdentifier>{2f1fee30-c6df-4bc9-a96b-c69c2b65750f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\renderer">
+      <UniqueIdentifier>{bb1b6a36-4060-4b94-ab6b-cf78f0361529}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game_model">
+      <UniqueIdentifier>{a07971f9-3f8a-4628-b520-1c5346096be4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game_model">
+      <UniqueIdentifier>{f8efc1b2-65f8-48a7-a82f-68f9610e437a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphic_model">
+      <UniqueIdentifier>{41b9699e-d732-4f35-a177-f279c94bd3d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphic_model">
+      <UniqueIdentifier>{e76afcbb-1da1-4cdc-ac18-3170cfbda0b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\texture_binder">
+      <UniqueIdentifier>{0fa4f721-eaaf-4ae8-85d9-b82d34e4743c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\texture_binder">
+      <UniqueIdentifier>{d7b91fe7-2d57-4f0a-aeae-e49ba715810f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gl\glad\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewProjectionMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockVerticesBinder.cpp">
+      <Filter>Source Files\vertices_binder</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereVerticesBinder.cpp">
+      <Filter>Source Files\vertices_binder</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockRenderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereRenderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="BindedTextureInfo.cpp">
+      <Filter>Source Files\graphic_model</Filter>
+    </ClCompile>
+    <ClCompile Include="BindedVertexInfo.cpp">
+      <Filter>Source Files\graphic_model</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\graphic_model</Filter>
+    </ClCompile>
+    <ClCompile Include="DragHistory.cpp">
+      <Filter>Source Files\graphic_model</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\graphic_model</Filter>
+    </ClCompile>
+    <ClCompile Include="Material.cpp">
+      <Filter>Source Files\graphic_model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\game_model</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureBinder.cpp">
+      <Filter>Source Files\texture_binder</Filter>
+    </ClCompile>
+    <ClCompile Include="GameAimingObject.cpp">
+      <Filter>Source Files\game_model</Filter>
+    </ClCompile>
+    <ClCompile Include="MousePositionHistory.cpp">
+      <Filter>Source Files\graphic_model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMovingObject.cpp">
+      <Filter>Source Files\game_model</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalXVerticesBinder.cpp">
+      <Filter>Source Files\vertices_binder</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalYVerticesBinder.cpp">
+      <Filter>Source Files\vertices_binder</Filter>
+    </ClCompile>
+    <ClCompile Include="PortalZVerticesBinder.cpp">
+      <Filter>Source Files\vertices_binder</Filter>
+    </ClCompile>
+    <ClCompile Include="StartPageRenderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaneVerticesBinder.cpp">
+      <Filter>Source Files\vertices_binder</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageRenderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="FullImageRenderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cgmath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cgut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewProjectionMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockVerticesBinder.h">
+      <Filter>Header Files\vertices_binder</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereVerticesBinder.h">
+      <Filter>Header Files\vertices_binder</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockRenderer.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereRenderer.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\graphic_model</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\graphic_model</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Header Files\graphic_model</Filter>
+    </ClInclude>
+    <ClInclude Include="DragHistory.h">
+      <Filter>Header Files\graphic_model</Filter>
+    </ClInclude>
+    <ClInclude Include="BindedVertexInfo.h">
+      <Filter>Header Files\graphic_model</Filter>
+    </ClInclude>
+    <ClInclude Include="BindedTextureInfo.h">
+      <Filter>Header Files\graphic_model</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\game_model</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureBinder.h">
+      <Filter>Header Files\texture_binder</Filter>
+    </ClInclude>
+    <ClInclude Include="GameAimingObject.h">
+      <Filter>Header Files\game_model</Filter>
+    </ClInclude>
+    <ClInclude Include="MousePositionHistory.h">
+      <Filter>Header Files\graphic_model</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMovingObject.h">
+      <Filter>Header Files\game_model</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalXVerticesBinder.h">
+      <Filter>Header Files\vertices_binder</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalYVerticesBinder.h">
+      <Filter>Header Files\vertices_binder</Filter>
+    </ClInclude>
+    <ClInclude Include="PortalZVerticesBinder.h">
+      <Filter>Header Files\vertices_binder</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaneVerticesBinder.h">
+      <Filter>Header Files\vertices_binder</Filter>
+    </ClInclude>
+    <ClInclude Include="StartPageRenderer.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageRenderer.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="FullImageRenderer.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bin\shaders\trackball.vert">
+      <Filter>Shader Files</Filter>
+    </None>
+    <None Include="..\bin\shaders\trackball.frag">
+      <Filter>Shader Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
